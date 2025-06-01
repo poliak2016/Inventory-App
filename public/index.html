@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory app</title>
+</head>
+<body>
+  <h1>Inventory</h1>
+  <form id="productForm">
+    <input type="text" name="name" placeholder="Name" required/>
+    <input type="number" name="quantity" placeholder="Quantity"/>
+    <input type="number" step="0.01" name="price" placeholder="Price"/>
+    <input type="text" name="category" placeholder="Category"/>
+    <button type="submit">Add</button>
+  </form>
+  <h2>Product list</h2>
+  <ul id="productList"></ul>
+  
+  <script src="main.js"></script>
+
+  
+</body>
+</html>
